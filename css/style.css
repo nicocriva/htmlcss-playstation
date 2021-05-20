@@ -1,0 +1,59 @@
+/*header*/
+#header-top{
+    background-color: black;
+}
+
+#header-bottom{
+    background-color: white;
+}
+
+.new-games{
+    background-color: #1f1f1f;
+}
+
+
+
+
+
+/*-----------debug-----------*/
+#header-top{
+    height: 40px;
+}
+
+#header-bottom{
+    height: 70px;
+}
+
+/*jumbotron*/
+.jumbotron{
+    height: 550px;
+    background-color: #274748;
+}
+
+/*jumbo games*/
+.section-jumbo-games .row div{
+    height: 150px;
+}
+
+/*sezione ps5*/
+.section-ps5 .row div{
+    height: 150px;
+}
+
+.bcg_grey{
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+/*jumbo 2*/
+.jumbotron-2{
+    height: 600px;
+    background-color: #fdab42;
+}
+
+/*nuovi  giochi*/
+
+
+.bcg_pink{
+    height: 200px;
+    background-color: #eaa0f0;
+}
