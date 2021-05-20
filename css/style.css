@@ -11,6 +11,18 @@
     background-color: #1f1f1f;
 }
 
+.section-ps-plus{
+    background-color: #bebcbb;
+}
+
+.section-ps-now{
+    background-color: #161c3b;
+}
+
+/*footer*/
+footer{
+    background-color: #00439c;
+}
 
 
 
@@ -51,9 +63,37 @@
 }
 
 /*nuovi  giochi*/
-
-
 .bcg_pink{
     height: 200px;
     background-color: #eaa0f0;
+}
+
+/*ps4*/
+.bcg_green{
+    background-color: #3cb12d;
+    height: 150px;
+}
+
+/*ps plus*/
+.bcg_yellow{
+    height: 250px;
+    background-color: rgb(221, 221, 23);
+}
+
+/*sconti*/
+.bcg_red{
+    height: 200px;
+    background-color: rgb(214, 41, 28);
+}
+
+/*social*/
+.bcg_brown{
+    height: 100px;
+    background-color: brown;
+}
+
+/*footer*/
+.bcg_purple{
+    height: 50px;
+    background-color: purple;
 }
