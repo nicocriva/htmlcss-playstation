@@ -12,9 +12,40 @@
 <body>
     
     <!--testata pagina-->
-    <header>
-        <div id="header-top"></div>
-        <div id="header-bottom"></div>
+    <header class="fixed-top">
+
+        <div id="header-top" class="d-flex justify-content-end">
+            <img src="img/sony_logo.svg" alt="Logo Sony">
+        </div>
+
+
+        <div id="header-bottom">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="header-ps-logo h-100 me-3">
+                        <img src="img/play_logo.svg" class="h-100" alt="PlayStation Logo">
+                    </div>
+                    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="list-unstyled d-flex mb-2">
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Giochi<i class="fas fa-chevron-down"></i> </a></li>
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Hardware<i class="fas fa-chevron-down"></i> </a></li>
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Servizi<i class="fas fa-chevron-down"></i> </a></li>
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Novità<i class="fas fa-chevron-down"></i> </a></li>
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Fai acquisti<i class="fas fa-chevron-down"></i> </a></li>
+                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Supporto<i class="fas fa-chevron-down"></i> </a></li>
+                        </ul>
+                        <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        </div>
+                        <a href="#" class="text-decoration-none text-dark me-2 fs-5">My PlayStation<i class="fas fa-chevron-down"></i> </a>
+                        <a href="#" type="button" class="btn_login text-decoration-none text-light me-2 fs-5 rounded-pill">Accedi</a>
+                        <a href="#"><i class="fas fa-search text-dark ms-4 fs-4"></i></a>
+                  </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <!-- jumbotron -->

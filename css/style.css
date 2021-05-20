@@ -1,10 +1,40 @@
 /*header*/
 #header-top{
+    height: 40px;
     background-color: black;
 }
 
+#header-top img{
+    width: 100px;
+    margin-right: 20px;
+}
+
 #header-bottom{
+    height: 70px;
     background-color: white;
+}
+
+.fas.fa-chevron-down{
+    font-size: 14px;
+    color: rgb(161, 161, 161);
+    margin: 0 15px 0 10px;
+    transition: 0.5s;
+}
+
+#header-bottom a:hover .fas.fa-chevron-down{
+    transform: rotate(180deg);
+}
+
+.fas.fa-search{
+    position: relative;
+    top: 4px;
+}
+
+.btn_login{
+    background-color: #363636;
+    padding: 5px 20px 10px;
+    position: relative;
+    top: 2px;
 }
 
 .new-games{
@@ -19,6 +49,10 @@
     background-color: #161c3b;
 }
 
+.jumbotron{
+    margin-top: 110px;
+}
+
 /*footer*/
 footer{
     background-color: #00439c;
@@ -28,13 +62,7 @@ footer{
 
 
 /*-----------debug-----------*/
-#header-top{
-    height: 40px;
-}
 
-#header-bottom{
-    height: 70px;
-}
 
 /*jumbotron*/
 .jumbotron{
