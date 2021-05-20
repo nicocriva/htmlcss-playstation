@@ -49,8 +49,22 @@
     background-color: #161c3b;
 }
 
+
+/*------------jumbotron--------------*/
 .jumbotron{
+    height: 550px;
     margin-top: 110px;
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.game_logo img{
+    width: 250px;
+}
+
+.jumbo_button{
+    background-color: #cd3d0f;
 }
 
 /*footer*/
@@ -66,7 +80,6 @@ footer{
 
 /*jumbotron*/
 .jumbotron{
-    height: 550px;
     background-color: #274748;
 }
 
