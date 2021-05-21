@@ -109,7 +109,14 @@
     opacity: 1;
 }
 
-
+/*----------jumbotron 2-----------*/
+.jumbotron-2{
+    height: 550px;
+    margin-top: 110px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 /*sezione nuovi giochi*/
 .new-games{
@@ -161,10 +168,10 @@ footer{
 } */
 
 /*jumbo 2*/
-.jumbotron-2{
+/* .jumbotron-2{
     height: 600px;
     background-color: #fdab42;
-}
+} */
 
 /*nuovi  giochi*/
 .bcg_pink{
