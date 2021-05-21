@@ -20,45 +20,72 @@
 
 
         <div id="header-bottom">
-            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            
+              <nav class="navbar navbar-expand-xl navbar-light bg-light">
                 <div class="container-fluid">
                     <div class="header-ps-logo h-100 me-3">
                         <img src="img/play_logo.svg" class="h-100" alt="PlayStation Logo">
                     </div>
-                    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="list-unstyled d-flex mb-2">
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Giochi<i class="fas fa-chevron-down"></i> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Hardware<i class="fas fa-chevron-down"></i> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Servizi<i class="fas fa-chevron-down"></i> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Novità<i class="fas fa-chevron-down"></i> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Fai acquisti<i class="fas fa-chevron-down"></i> </a></li>
-                            <li><a href="#" class="text-decoration-none text-dark me-2 fs-5">Supporto<i class="fas fa-chevron-down"></i> </a></li>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="#">Giochi<i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Hardware<i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi<i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-dark" href="#">dpdmenu</a></li>
+                                    <li><a class="dropdown-item text-dark" href="#">dpdmenu</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <ul class="d-flex list-style-none">
+                                        <li class="dropdown_li"><a class="text-dark text-decoration-none" href="#">sub link acquisti</a></li>
+                                        <li class="dropdown_li"><a class="text-dark text-decoration-none" href="#">sub link acquisti</a></li>
+                                        <li class="dropdown_li"><a class="text-dark text-decoration-none" href="#">sub link</a></li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Novità<i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Fai acquisti<i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Supporto<i class="fas fa-chevron-down"></i></a>
+                            </li>
                         </ul>
                         <div class="navbar-nav me-auto mb-2 mb-lg-0">
                         </div>
                         <a href="#" class="text-decoration-none text-dark me-2 fs-5">My PlayStation<i class="fas fa-chevron-down"></i> </a>
-                        <a href="#" type="button" class="btn_login text-decoration-none text-light me-2 fs-5 rounded-pill">Accedi</a>
+                        <a href="#" type="button" class="button_login text-decoration-none text-light me-2 fs-5 rounded-pill">Accedi</a>
                         <a href="#"><i class="fas fa-search text-dark ms-4 fs-4"></i></a>
-                  </div>
+                    </div>
                 </div>
-            </nav>
+              </nav>
+
+
         </div>
     </header>
 
     <!-- jumbotron -->
     <div class="jumbotron mb-4">
-        <div class="container h-100 d-flex align-items-end">
-            <div class="row jumbotron_text ">
+        <div class="container d-flex flex-column justify-content-end h-100 pb-5">
+            <div class="row jumbotron_text">
                 <div class="col-12 game_logo mb-4">
                     <img src="img/returnal-hero-banner-logo.png" alt="Returnal">
                 </div>
                 <h2 class="col-12 text-light mb-4">Rompi il cerchio</h2>
                 <p class="col-12 col-lg-5 text-light mb-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
                 <div class="col-lg-7"></div>
-                <a href="#" class="col-3 col-md-2 jumbo_button text-decoration-none text-center text-light rounded-pill mb-4 py-1 px-0">Acquista ora</a>
+            </div>
+            <div class="lh-1">
+                <a href="#" class="button_jumbo rounded-pill mb-4 lh-1 text-decoration-none text-light">Acquista ora</a>
             </div>
         </div>
     </div>
@@ -70,12 +97,12 @@
         <div class="container">
             <div class="section-jumbo-games">
                 <div class="row pb-5">
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
-                    <div class="col-6 col-sm-4 col-lg-2 bg-primary border gx-4 gy-3">jumbo game</div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/returnal-listing-thumb-01-ps5.jpg" alt=""></div>
+                    <div class="col-6 col-sm-4 col-lg-2 gx-4 gy-3"><img class="w-100 jumbo_game_img" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></div>
                 </div>
             </div>
         </div>
