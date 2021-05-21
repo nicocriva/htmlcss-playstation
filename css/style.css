@@ -123,6 +123,16 @@
     background-color: #1f1f1f;
 }
 
+.new_games_img{
+    border-radius: 20px;
+}
+
+/*----sezione PS4----*/
+.button_PS4{
+    background-color: #0d6efd;
+    padding: 4px 20px 8px;
+}
+
 /*sezione ps plus*/
 .section-ps-plus{
     background-color: #bebcbb;
@@ -132,7 +142,6 @@
 .section-ps-now{
     background-color: #161c3b;
 }
-
 
 
 
@@ -174,16 +183,16 @@ footer{
 } */
 
 /*nuovi  giochi*/
-.bcg_pink{
+/* .bcg_pink{
     height: 200px;
     background-color: #eaa0f0;
-}
+} */
 
 /*ps4*/
-.bcg_green{
+/* .bcg_green{
     background-color: #3cb12d;
     height: 150px;
-}
+} */
 
 /*ps plus*/
 .bcg_yellow{
