@@ -138,6 +138,11 @@
     background-color: #bebcbb;
 }
 
+.button_PSplus{
+    background-color: #d9dadc;
+    padding: 4px 20px 8px;
+}
+
 /*sezione ps now*/
 .section-ps-now{
     background-color: #161c3b;
@@ -195,10 +200,10 @@ footer{
 } */
 
 /*ps plus*/
-.bcg_yellow{
+/* .bcg_yellow{
     height: 250px;
     background-color: rgb(221, 221, 23);
-}
+} */
 
 /*sconti*/
 .bcg_red{
