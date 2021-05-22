@@ -13,7 +13,6 @@
 /*header bottom*/
 #header-bottom{
     height: 70px;
-    background-color: white;
 }
 
 .fas.fa-chevron-down{
@@ -41,6 +40,10 @@
     padding: 5px 20px 10px;
 }
 
+.dropdown_style{
+    list-style-type: circle;
+}
+
 .dropdown_li{
     width: 200px;
 }
@@ -61,6 +64,11 @@
 .button_jumbo{
     background-color: #cd3d0f;
     padding: 4px 20px 8px;
+}
+
+/*menu dropdown*/
+.dropdown_menu:hover{
+    background-color: #fff;
 }
 
 /*-----sezione giochi jumbo------*/
@@ -85,7 +93,6 @@
 .fas.fa-trademark{
     line-height: 20px;
     font-size: 8px;
-    vertical-align: top;
 }
 
 .img_accessori{
@@ -156,10 +163,6 @@ footer{
 .language_row{
     height: 20px;
     cursor: pointer;
-}
-
-.footer_list{
-    list-style: none;
 }
 
 
