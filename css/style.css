@@ -64,21 +64,21 @@
 }
 
 /*-----sezione giochi jumbo------*/
-.jumbo_game_img:hover{
-    border: 3px solid rgb(21, 107, 219);
-    padding: 2px;
-}
-
 .jumbo_game_img{
+    border: 3px solid transparent;
     border-radius: 20px;
+    padding: 2px;
     opacity: 0.7;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .jumbo_game_img:hover{
+    border: 3px solid rgb(21, 107, 219);
+    padding: 2px;
+    display: block;
     opacity: 1;
-    transform: translatey(-20%);
+    transform: translatey(-10%);
 }
 
 /*--------sezione PS5-------*/
@@ -102,7 +102,7 @@
 
 .img_accessori img{
     opacity: 0.7;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .img_accessori img:hover{
@@ -148,14 +148,19 @@
     background-color: #161c3b;
 }
 
-
-
 /*footer*/
 footer{
     background-color: #00439c;
 }
 
+.language_row{
+    height: 20px;
+    cursor: pointer;
+}
 
+.footer_list{
+    list-style: none;
+}
 
 
 /*-----------debug-----------*/
@@ -218,7 +223,7 @@ footer{
 } */
 
 /*footer*/
-.bcg_purple{
+/* .bcg_purple{
     height: 50px;
     background-color: purple;
-}
+} */
