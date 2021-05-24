@@ -40,12 +40,28 @@
     padding: 5px 20px 10px;
 }
 
+/*menu dropdown*/
 .dropdown_style{
     list-style-type: circle;
 }
 
+.dropdown-menu[data-bs-popper]{
+    border-radius: 0px;
+    width: 100vw;
+    left: -78px;
+    top: 57px;
+}
+
 .dropdown_li{
     width: 200px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: transparent;
+}
+
+.dropdown_menu:hover{
+    background-color: #fff;
 }
 
 /*------------jumbotron--------------*/
@@ -66,10 +82,6 @@
     padding: 4px 20px 8px;
 }
 
-/*menu dropdown*/
-.dropdown_menu:hover{
-    background-color: #fff;
-}
 
 /*-----sezione giochi jumbo------*/
 .jumbo_game_img{
