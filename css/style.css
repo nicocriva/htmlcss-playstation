@@ -47,7 +47,7 @@
 
 .dropdown-menu[data-bs-popper]{
     border-radius: 0px;
-    width: 100vw;
+    width: 400px;
     left: -78px;
     top: 57px;
 }
